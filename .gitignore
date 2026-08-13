@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.vscode/
+.idea/
+.DS_Store
+chroma_db/
+data/output/*
+!data/output/.gitkeep

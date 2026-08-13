@@ -1,0 +1,50 @@
+{
+  "subject": "Data Structures",
+  "exam": "Mid Semester Examination",
+  "duration": "2 Hours",
+  "total_marks": 20,
+  "questions": [
+    {
+      "number": 1,
+      "question": "What is a stack?",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "Stacks"
+    },
+    {
+      "number": 2,
+      "question": "Explain circular queue.",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "Queues"
+    },
+    {
+      "number": 3,
+      "question": "Compare BFS and DFS.",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "Graphs"
+    },
+    {
+      "number": 4,
+      "question": "Explain binary search tree.",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "Trees"
+    },
+    {
+      "number": 5,
+      "question": "What is an array?",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "Arrays"
+    },
+    {
+      "number": 6,
+      "question": "Explain linked list traversal.",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "Linked Lists"
+    }
+  ]
+}

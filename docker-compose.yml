@@ -1,0 +1,7 @@
+# Placeholder only — Docker deployment is not part of the initial setup.
+# Frontend and backend are run locally during Phase 1 (see root README.md).
+# Service definitions will be added when containerization is actually needed.
+
+version: "3.9"
+
+services: {}

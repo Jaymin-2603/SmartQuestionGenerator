@@ -1,0 +1,108 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+.generator-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+.generator-page > h1 {
+  text-align: center;
+}
+
+.question-paper,
+.validation {
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.question-paper h2,
+.validation h2 {
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 0;
+}
+
+.question-paper h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.question-paper > p {
+  text-align: center;
+  margin: 4px 0;
+}
+
+.question-row {
+  margin: 16px 0;
+}
+
+.question-text {
+  margin: 0;
+}
+
+.question-meta {
+  margin: 4px 0 0;
+  text-align: right;
+  font-size: 0.85em;
+  color: #666;
+}
+
+.question-paper button {
+  display: block;
+  margin: 24px auto 0;
+  padding: 10px 24px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.validation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.validation li {
+  padding: 4px 0;
+}
+
+.validation li.pass {
+  color: #1a7f37;
+}
+
+.validation li.fail {
+  color: #c0392b;
+}
+
+.validation .verdict {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 16px;
+}
+
+.validation .verdict.pass {
+  color: #1a7f37;
+}
+
+.validation .verdict.fail {
+  color: #c0392b;
+}
+
+.validation-error,
+.error-text {
+  color: #c0392b;
+}
