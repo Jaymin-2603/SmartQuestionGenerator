@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Smart Question Paper Generator"
+description = "A frontend dashboard for faculty to analyze past question papers, generate blueprint-driven exams, review AI-generated questions, search the question bank, and track system performance."
+version = "1.0.0"
+id = "artifacts/smart-question-paper"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19012
+
+[services.development]
+run = "pnpm --filter @workspace/smart-question-paper run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/smart-question-paper", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/smart-question-paper/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19012"
+BASE_PATH = "/"
